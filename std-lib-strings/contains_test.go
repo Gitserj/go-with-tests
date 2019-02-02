@@ -21,7 +21,7 @@ func TestContains(t *testing.T) {
 		assertCorrectTest(t, test, expected)
 	})
 
-	t.Run("space search", func(t *testing.T) {
+	t.Run("search space in str", func(t *testing.T) {
 		test := strings.Contains("test", " ")
 		expected := false
 
