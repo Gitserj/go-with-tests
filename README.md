@@ -21,4 +21,4 @@
 Links:
 - [Книга Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 - [Введение в программирование на Go](http://golang-book.ru/)
-- https://habr.com/en/post/307554/
+- [О байтах и строках в Го \ Хабр](https://habr.com/en/post/307554/)
