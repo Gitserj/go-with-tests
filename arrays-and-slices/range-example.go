@@ -28,23 +28,26 @@ func main() {
 		fmt.Println("num:", num, "index:", i)
 		// }
 	}
-	return
+	// return
 
 	// `range` on map iterates over key/value pairs.
 	kvs := map[string]string{"a": "apple", "b": "banana"}
 	for k, v := range kvs {
 		fmt.Printf("%s -> %s\n", k, v)
 	}
+	// return
 
 	// `range` can also iterate over just the keys of a map.
 	for k := range kvs {
 		fmt.Println("key:", k)
 	}
+	// return
 
 	// `range` on strings iterates over Unicode code
 	// points. The first value is the starting byte index
 	// of the `rune` and the second the `rune` itself.
 	for i, c := range "go" {
-		fmt.Println(i, c)
+		fmt.Printf("%d %d %c\n", i, c, c)
+		// fmt.Println(i, c)
 	}
 }
