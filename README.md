@@ -9,7 +9,7 @@
 - [x] Hello
 - [x] Integers
 - [x] Iteration
-- [ ] Arrays and slices
+- [х] Arrays and slices
 - [ ] Structs, methods & interfaces
 - [ ] Pointers & errors
 - [ ] Maps
