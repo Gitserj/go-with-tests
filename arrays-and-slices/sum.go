@@ -22,8 +22,12 @@ func SumAllTails(numbersToSum ...[]int) []int {
 	var sums []int
 
 	for _, numbers := range numbersToSum {
-		tail := numbers[1:] // Взять в слайс всё от 1(индекс) до конца
-		sums = append(sums, Sum(tail))
+		if len(numbers) == 0 {
+			sums = append(sums, 0)
+		} else {
+			tail := numbers[1:] // Взять в слайс всё от 1(индекс) до конца
+			sums = append(sums, Sum(tail))
+		}
 	}
 
 	return sums
