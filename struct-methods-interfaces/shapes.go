@@ -1,5 +1,7 @@
 package shapes
 
+import "math"
+
 // Функции и методы очень похожи
 // Функция может принимать на вход тип "обьекта" func(obj)
 // Метод может быть вызван для экзепляра "обьекта" obj.func()
@@ -18,6 +20,16 @@ func Perimeter(r Rectangle) float64 {
 	return 2 * (r.width + r.heigth)
 }
 
-func Area(r Rectangle) float64 {
+// Функция
+// func Area(r Rectangle) float64 {
+// 	return r.width * r.heigth
+// }
+
+// Её аналог в виде методов для 2х типов данных
+func (r Rectangle) Area() float64 {
 	return r.width * r.heigth
+}
+
+func (c Circle) Area() float64 {
+	return math.Pi * c.radius * c.radius
 }
