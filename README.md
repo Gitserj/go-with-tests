@@ -4,6 +4,7 @@
 - [x] Написать тесты для этих функций
 - [ ] go test -cover (чекнуть документацию)
 - [ ] [Go slices](https://blog.golang.org/go-slices-usage-and-internals) прочитать, написать пару тестов для закрепления
+- [ ] [Go interfaces](https://golang.org/ref/spec#Interface_types) очень зашло в книге, стоит копнуть глубже
 
 Главы:
 - [x] Hello
